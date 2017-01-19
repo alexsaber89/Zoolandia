@@ -3,9 +3,10 @@ namespace Zoolandia.Animals
     class UrsusArctos : Ursus
     {
         public string commonName = "Brown Bear";
-        public UrsusArctos()
+        public UrsusArctos(string name, int age)
         {
-            this.Name = "Droopsie";
+            this.Name = name;
+            this.Age = age;
             CanRoar = true;
         }
     }

@@ -7,20 +7,24 @@ namespace ConsoleApplication
     {
         public static void Main(string[] args)
         {
-            PantheraTigris myPantheraTigris = new PantheraTigris();
+            PantheraTigris myPantheraTigris = new PantheraTigris("Johnny", 8);
             Console.WriteLine($"This animal's common name is {myPantheraTigris.commonName}.");
             Console.WriteLine($"This animal's name is {myPantheraTigris.Name}.");
+            Console.WriteLine($"This animal's age is {myPantheraTigris.Age}.");
             myPantheraTigris.eat();
 
-            PongoPygmaeus myPongoPygmaeus = new PongoPygmaeus();
+            PongoPygmaeus myPongoPygmaeus = new PongoPygmaeus("Jennie", 6);
             Console.WriteLine($"This animal's common name is {myPongoPygmaeus.commonName}.");
             Console.WriteLine($"This animal's name is {myPongoPygmaeus.Name}.");
+            Console.WriteLine($"This animal's age is {myPongoPygmaeus.Age}.");
             myPongoPygmaeus.eat();
 
-            UrsusArctos myUrsusArctos = new UrsusArctos();
+            UrsusArctos myUrsusArctos = new UrsusArctos("Jamie", 4);
             Console.WriteLine($"This animal's common name is {myUrsusArctos.commonName}.");
             Console.WriteLine($"This animal's name is {myUrsusArctos.Name}.");
+            Console.WriteLine($"This animal's age is {myUrsusArctos.Age}.");
             myUrsusArctos.eat();
+            
             // EschrichtiusRobustus eschrichtiusRobustus = new EschrichtiusRobustus();
             // eschrichtiusRobustus.sound = "yelp";
             // Console.WriteLine($"I have a {eschrichtiusRobustus.commonName} named {eschrichtiusRobustus.name} who makes a {eschrichtiusRobustus.sound} sound and {eschrichtiusRobustus.endangered}.");

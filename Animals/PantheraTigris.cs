@@ -3,9 +3,10 @@ namespace Zoolandia.Animals
     class PantheraTigris : Panthera
     {
         public string commonName = "Tiger";
-        public PantheraTigris()
+        public PantheraTigris(string name, int age)
         {
-            this.Name = "Moopsie";
+            this.Name = name;
+            this.Age = age;
             CanRoar = true;
         }
     }
