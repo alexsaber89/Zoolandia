@@ -4,11 +4,14 @@ namespace Zoolandia.Animals
 {
     public class Animal
     {
-        public string name { get; set; }
+        public string Name { get; set; }
 
-        public void sleep ()
+        public string Genus { get; set; }
+        public bool HasBackbone = true;
+        public bool BirthsLiveYoung = true;
+        public virtual void eat ()
         {
-            Console.WriteLine("Zzzzzzzz...");
+            Console.WriteLine("Animals like to eat.");
         }
     }
 }
